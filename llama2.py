@@ -11,7 +11,7 @@ def get_prompt(instruction: str) -> str:
     return prompt
 
 
-question = "how do i use channels to speed up a loop in golang?"
+question = "what is the capital of India?"
 
 for word in llm(get_prompt(question), stream=True):
     print(word, end="", flush=True)

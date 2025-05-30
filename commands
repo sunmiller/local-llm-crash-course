@@ -1,0 +1,2 @@
+how to run chainlit
+chainlit run app.py -w
